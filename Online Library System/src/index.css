@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(237, 237, 253);
+    font-family: Arial, sans-serif; 
+}
+
+.firsthalf{
+    background-color:rgb(164, 166, 228);
+    padding: 50px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size:xx-large;
+    background-color:rgba(32, 29, 187, 0.626);
+    padding: 20px;
+}
+
+.navbaritem{
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.active{
+    color:yellow;
+    font-style: oblique;
+    text-decoration:underline;
+}
+
+
+.greeting{
+    text-align: center;
+    background-color:rgb(164, 166, 228);
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.bookcategories{
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size:larger;
+}
+
+.categorylinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categorylinkschild{
+    text-decoration: none;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(64, 64, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.categorylinkschild:hover{
+    font-style: oblique;
+    background-color: blue;
+}
+
+.categoriesChild{
+    text-decoration: none;
+    background-color: rgb(119, 119, 191);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+    font-size: larger;
+    color: rgb(244, 231, 231);
+    margin-bottom: 25px;
+}
+
+.categoriesChild:hover{
+    font-style: oblique;
+    color: white;
+    background-color: rgb(87, 87, 166);
+}
+
+.popularbooks{
+    text-align: center;
+    padding-top: 75px;
+}
+
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size:larger;
+}
+
+
+.AllBooksHeading{
+    text-align: center;
+    padding-top: 75px;
+}
+
+.browsebooks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: auto;
+}
+
+.browsebookschild{
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    margin-left: 35px;
+    background-color: rgb(225, 224, 244);
+}
+
+.viewdetails{
+    text-decoration: none;
+    color: rgb(237, 216, 243);
+    background-color: rgba(107, 24, 156, 0.632);
+    padding: 7px;
+    font-weight:700;
+    border-radius: 5px;
+}
+
+.viewdetails:hover{
+    color: white;
+    font-style: oblique;
+    background-color: rgb(127, 75, 131);
+}
+
+.bookdetails{
+    border: 2px solid black;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.bookdetailschild{
+    padding: 15px;
+    background-color: rgb(225, 224, 244);
+}
+
+.bookdetailsimage{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bookdetailschildrating{
+    padding: 15px;
+    background-color: rgb(225, 224, 244);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.backtobrowse{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+
+form{
+    border: 2px solid black;
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(77, 77, 133, 0.795);
+}
+
+
+.formchild{
+    padding: 10px;
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size:x-large;
+}
+
+
+.formchilddescription{
+    padding: 10px;
+    width: 450px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: larger;
+}
+
+.addbookbutton{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(175, 190, 201);
+    font-weight: 700;
+}
+
+.addbookbutton:hover{
+    font-style: oblique;
+    background-color: rgba(25, 82, 162, 0.795);
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.inputandbutton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputfield{
+    padding: 10px;
+    width: 350px;
+    margin-right: 25px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.searchbutton{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(133, 160, 206);
+    color: black;
+}
+
+.searchbutton:hover{
+    font-style: oblique;
+    background-color: rgb(31, 82, 170);
+    color: white;
+}
+
+.errorpage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.errorpagechild{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 4, 4);
+    color: white;    
+}
+
+.errorpagechildemoji{
+    background-color: rgb(210, 210, 11);
+    padding:25px;
+    border-radius: 100px;
+}
+
+.errorpagelink{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 45, 172);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.errorpagelink:hover{
+    background-color: rgba(0, 0, 255, 0.767);
+    font-style: oblique;
+    font-size:larger;
+}
+
+footer{
+    background-color: rgb(14, 9, 9);
+    height: 250px;
+    color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerchild{
+    margin-top: 50px;
+    margin-bottom: 25px;   
+}
+
+.footerheader{
+    text-align: center;
+}
