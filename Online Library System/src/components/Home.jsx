@@ -25,7 +25,7 @@ function Home() {
             <br />
             <div className="popular">
                 {books.slice(0, 8).map(book => (
-                    <>
+                    
                         <div key={book.id} className="browsebookschild">
                             <img src={book.coverImage} alt={`image of ${book.title}`} height="250px" width="250px" />
                             <h4>{book.title}</h4>
@@ -33,7 +33,7 @@ function Home() {
                             <br />
                             <Link to={`/books/details/${book.id}`} key={book.id} className="viewdetails">View Details</Link>
                         </div>
-                    </>
+                    
                 ))}
             </div>     
         </>
